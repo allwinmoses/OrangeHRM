@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OrangeHRM suite">
+    <test name="OrangeHRM">
+        <classes>
+            <class name="com.testcases.LoginPageTest"/>
+            <class name="com.testcases.AdminPageTest"/>
+            <class name="com.testcases.PIMPageTest"/>
+            <class name="com.testcases.LeavePageTest"/>
+            <class name="com.testcases.TimePageTest"/>
+            <class name="com.testcases.RecruitmentPageTest"/>
+            <class name="com.testcases.MyInfoPageTest"/>
+            <class name="com.testcases.PerformancePageTest"/>
+            <class name="com.testcases.DirectoryPageTest"/>
+            <class name="com.testcases.MaintenancePageTest"/>
+            <class name="com.testcases.ClaimPageTest"/>
+            <class name="com.testcases.BuzzPageTest"/>
+            <class name="com.testcases.LogoutPageTest"/>
+        </classes>
+    </test>
+</suite>
